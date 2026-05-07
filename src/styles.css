@@ -113,10 +113,11 @@
   --input: oklch(0.26 0.024 256);
   --ring: oklch(0.68 0.20 250);
 
-  --shadow-blue: 0 20px 60px -20px color-mix(in oklab, var(--primary) 55%, transparent);
-  --shadow-elevated: 0 30px 80px -20px color-mix(in oklab, var(--primary) 35%, transparent);
+  --shadow-blue: 0 25px 70px -15px color-mix(in oklab, var(--primary) 65%, transparent);
+  --shadow-elevated: 0 35px 90px -20px color-mix(in oklab, var(--accent-violet) 45%, transparent);
   --gradient-primary: linear-gradient(135deg, var(--primary), var(--primary-glow));
-  --gradient-radial: radial-gradient(circle at 30% 20%, color-mix(in oklab, var(--primary) 28%, transparent), transparent 60%);
+  --gradient-vivid: linear-gradient(120deg, var(--primary) 0%, var(--accent-violet) 50%, var(--accent-pink) 100%);
+  --gradient-radial: radial-gradient(circle at 30% 20%, color-mix(in oklab, var(--primary) 35%, transparent), transparent 60%);
 }
 
 @layer base {
